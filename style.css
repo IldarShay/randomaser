@@ -1,0 +1,42 @@
+#main {
+  width: 100%;
+}
+#main div {
+  margin: 10px auto;
+  width: max-content;
+}
+#list {
+  width: 300px;
+  height: 400px;
+  padding: 5px 10px;
+  font-weight: border;
+  border: darkslategrey 5px solid;
+  border-radius: 15px;
+  overflow-y: auto;
+}
+
+#result {
+  width: 300px;
+  padding: 15px 15px;
+  border-radius: 20px;
+  background-color: darkslategrey;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#generate {
+  width: 200px;
+  padding: 10px 50px;
+  color: darkslategrey;
+  margin: 30px 0;
+  border: darkslategrey 2px solid;
+  cursor: pointer;
+  font-family: "OpenSans";
+  font-weight: bold;
+  font-stretch: ultra-expanded;
+}
+#generate:hover {
+  border: darkcyan 2px solid;
+  background-color: rgba(11, 119, 56, 0.1);
+}
